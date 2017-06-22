@@ -1,6 +1,6 @@
-# Todo Application using Vue.js
+# Todo List Application using Vue.js
 
-My first application using Vue.js, I created a todo application.
+I created a todo list using Vue.js
 
-Simple application which uses localstorage storing an array whenever the two functions are invoked.
+Simple app which uses localstorage storing an array whenever the user removes or adds a message.
 
