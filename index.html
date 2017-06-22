@@ -1,0 +1,17 @@
+<script src="https://unpkg.com/vue"></script>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<div id="container">
+  <h1>To Do Form</h1>
+  <input v-model="input">
+  <button v-on:click="addMessage">Add</button>
+    <ol>
+      <li class="todo-item" v-for="(todo, key, index) in todos">
+      <span>{{ todo.text }}</span>
+      <button v-on:click="removeMessage(todo)">X</button>
+    </li>
+    </ol>
+</div>
+
+<script src="script.js"></script>
